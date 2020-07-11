@@ -14,6 +14,7 @@ import { SignupComponent } from './components/signup/signup.component';
 import { SettingsComponent } from './components/settings/settings.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     SignupComponent,
     SettingsComponent,
     PageNotFoundComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
